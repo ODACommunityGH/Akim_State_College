@@ -1,0 +1,114 @@
+
+.quick-links-box {
+    margin: 20px;
+    background-color: rgb(12, 36, 48);
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+/* .a-link::after {
+    font-family: "Font Awesome 5 Brands"; content: " >>";
+    float: right;
+    padding-right: 5px;
+}
+  */
+
+#myNavbar h3 {
+    text-align: center;
+    border: 2px solid white;
+    color: white;
+    padding: 15px;
+}
+
+.button-box {
+    display: none;
+}
+
+#myNavbar ul li {
+    list-style-type: none;
+    margin-top: 15px; 
+}
+
+#myNavbar ul li a {
+    text-decoration: none;
+    color: rgb(236, 231, 231);
+}
+.bold {
+    font-weight: bolder;
+    color:white;
+}
+
+.sub-menu {
+    border-left: 0.5px solid rgb(205, 207, 207);
+    padding-left: 20px;
+    
+}
+
+ /* unvisited link */
+ #myNavbar a:link {
+  }
+  
+  /* visited link */
+  #myNavbar a:visited {
+    display: inline-block;
+    height: 100%;
+    background-color: grey;
+    border-left: 2px solid red;
+    padding: 12px;
+  }
+  
+  /* mouse over link */
+  #myNavbar a:hover {
+    display: inline-block;
+    height: 100%;
+    background-color: grey;
+    border-left: 2px solid red;
+    padding: 12px;
+  }
+  
+  /* selected link */
+  #myNavbar a:active {
+    display: inline-block;
+    height: 100%;
+    background-color: grey;
+    border-left: 2px solid red;
+    padding: 12px;
+  }
+.quick-links-btn {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+
+}
+.show {display:block;}
+/****************
+ *Media Queries
+ ***************/
+
+ @media (max-width: 767px){
+
+	.quick-links-box {
+		display: none;
+	}
+
+    
+.button-box {
+    display: block;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(12, 36, 48);
+    width: 100%;
+    margin: 5px;
+}
+.button-box:onclick {
+    display: block;
+}
+
+}
+
