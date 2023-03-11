@@ -178,6 +178,9 @@ nav ul li{
 	align-items:flex-end;
 	justify-content: space-between;
 	margin: 0.4rem 0;
+	background-image: url("../img/headmap.jpg");
+	background-size: 100%;
+	background-position: top center;
 }
 
 #dropdown1{
@@ -702,7 +705,9 @@ table {
 
 
 footer{
-//	background-image: url("../img/footer.jpg");
+	background-image: url("../img/headmap.jpg");
+	background-size: 100%;
+	background-position: top center;
 	background-color: #F0F0F0;
 	background-size: cover;
 	background-position: top center;
