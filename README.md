@@ -1,2 +1,2 @@
-# Akim_State_College/ School/ College/ University Website
+# College/ School/ University Website
 Akim State College's Website
